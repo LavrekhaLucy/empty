@@ -220,3 +220,17 @@ for (let list of listOfItems) {
     document.write(`<li>${list}</li>`);
 }
 document.write(`</ul>`);
+///////////////////////////////////////////
+// function getUsers(users) {
+//     for (const user of users) {
+//         document.write(`<div>
+//                  ${user.id} ${user.name} ${user.age}
+//         </div>`)
+//     }
+// }
+// getUsers([
+//     {id:1,name: 'vasya', age: 31,},
+//     {id:2,name: 'petya', age: 30,},
+//     {id:3,name: 'kolya', age: 29,},
+//     {id:4,name: 'olya', age: 28,},
+//     {id:5,name: 'max', age: 30,},])
